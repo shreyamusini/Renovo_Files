@@ -1,2 +1,2 @@
-# Renovo_Files
- 
+# Renovo Files
+ This repository contains the renovo program, edited to run on a single vcf file. The renovo program provides a classification for the contents of the vcf file. This single run renovo is then implemented into a pipeline that runs batches of files per CPU. As well, after the renovo classification is made, the following cleaning script processes the data to include the relevant data as per CLINVAR and the Renovo_Class. 
